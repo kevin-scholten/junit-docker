@@ -1,0 +1,3 @@
+Gebouwd via Build -> Build Artifacts.. -> name -> Build
+Genereer
+java -cp out/artifacts/junit_docker_jar/junit-docker.jar;junit.jar org.junit.runner.JUnitCore nl.kvns.CalculatorTest
