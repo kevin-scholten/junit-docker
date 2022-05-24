@@ -1,0 +1,7 @@
+version: "3"
+services:
+  junit-tests:
+    container_name: junit-tests
+    build: .
+    ports:
+      - "4447:4447"
