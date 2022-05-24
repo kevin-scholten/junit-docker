@@ -3,4 +3,4 @@ Genereer
 java -cp target/junit-docker-1.0-SNAPSHOT-fat-tests.jar;junit.jar org.junit.runner.JUnitCore nl.kvns.CalculatorTest
 
 
-FAT JAR COMMAND: mvn clean compile test-compile assembly:single
+FAT JAR COMMAND: mvn clean package
